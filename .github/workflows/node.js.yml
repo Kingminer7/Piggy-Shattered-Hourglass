@@ -8,6 +8,8 @@ on:
     branches: [ "ZNode" ]
   pull_request:
     branches: [ "ZNode" ]
+  workflow_dispatch: 
+    
 
 jobs:
   build:
