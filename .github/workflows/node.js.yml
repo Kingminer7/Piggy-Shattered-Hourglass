@@ -3,12 +3,7 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ "ZNode" ]
-  pull_request:
-    branches: [ "ZNode" ]
-  workflow_dispatch: 
+on: workflow_dispatch
     
 
 jobs:
